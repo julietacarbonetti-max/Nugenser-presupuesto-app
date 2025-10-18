@@ -1,4 +1,4 @@
-[13:46, 18/10/2025] Julieta Carbonetti: import streamlit as st
+import streamlit as st
 import pandas as pd
 from io import BytesIO
 import pdfplumber, re, qrcode
