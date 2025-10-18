@@ -1,3 +1,7 @@
-streamlit==1.38.0
+streamlit==1.39.0
 pandas==2.2.2
-reportlab==4.2.2
+reportlab==4.2.0
+pdfplumber==0.11.0
+openpyxl==3.1.5       # para XLSX de Alcemar
+qrcode==7.4.2         # QR en PDF
+Pillow==10.4.0        # soporte de imágenes
