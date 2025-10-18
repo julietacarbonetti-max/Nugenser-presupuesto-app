@@ -9,27 +9,6 @@ from reportlab.pdfgen import canvas
 import json, os
 from datetime import datetime
 
-st.set_page_config(page_title="NUGENSER • Presupuestos", page_icon="🧱", layout="wide")
-# --- Branding NUGENSER ---
-NGS_VERDE = "#1e402d"  # verde oscuro Nugenser
-NGS_ACCENT = "#27a742" # acento
-st.markdown("""
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
-html, body, [class*="css"]  { font-family: 'Montserrat', sans-serif; }
-h1, h2, h3 { color: #1e402d; }
-.stButton>button { background: #1e402d; color: #fff;…
-[13:49, 18/10/2025] Julieta Carbonetti: import streamlit as st
-import pandas as pd
-from io import BytesIO
-import pdfplumber, re, qrcode
-from reportlab.lib.utils import ImageReader
-from reportlab.lib.pagesizes import A4
-from reportlab.lib.units import mm
-from reportlab.pdfgen import canvas
-import json, os
-from datetime import datetime
-
 # ----------------------------
 # Config & Branding NUGENSER
 # ----------------------------
